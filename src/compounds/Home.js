@@ -7,6 +7,7 @@ function Home() {
   const [feat, setFeat] = useState(ProductData.featureList[0]);
   return (
     <div className="home">
+
       <div className="image">
         <img src={img.imageUrl} alt={img.styleName} />
         {feat === "Heart Rate" && (
